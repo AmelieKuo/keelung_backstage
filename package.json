@@ -1,0 +1,32 @@
+{
+  "name": "keelung_backstage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@unocss/reset": "^0.53.5",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.8",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.1.3",
+    "sweetalert2": "^11.7.18",
+    "vee-validate": "^4.10.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^9.11.0",
+    "unocss": "^0.53.5",
+    "vite": "^4.3.9"
+  }
+}
